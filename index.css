@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    color: #231D4F;
+}
+
+
+body {
+    background-image: url(./background.jpeg);
+    background-repeat: no-repeat;
+    overflow-x: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 50px;
+    padding-top: 20px;
+}
+
+.navbar button {
+    background: #BB6BD9;
+    border: none;
+    width: 130px;
+    height: 42px;
+    border-radius: 25px;
+    color: #ffff;
+}
+
+#checkbox_toggle {
+    display: none;
+}
+
+.navbar button:hover {
+    font-weight: 800;
+    cursor: pointer;
+    background: #231D4F;
+}
+
+.container {
+    margin-left: 2rem;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+}
+
+.container h2 {
+    padding-left: 8rem;
+    margin-top: 5rem;
+}
+
+.container p {
+    padding-top: 3rem;
+    padding-left: 8rem;
+    font-family: 'Poppins';
+    font-weight: 500;
+    line-height: 27px;
+    font-size: 1.2rem;
+    color: rgba(132, 129, 153, 1);
+    ;
+}
+
+
+.togglebox {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+.container-titleBox p {
+    font-family: "Poppins";
+    font-weight: 500;
+    padding-right: 5rem;
+
+}
+
+.active {
+    background-color: rebeccapurple;
+}
+
+.actionBtns {
+    background-color: #ffff;
+    margin: 12px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    border-radius: 50px;
+    text-align: center;
+    margin-top: 2.5rem;
+    margin-bottom: 5rem;
+}
+
+.actionBtn {
+    padding: 1rem;
+    width: 140px;
+    height: 50px;
+    outline: none;
+    border: none;
+    background: transparent;
+    border-radius: 50px;
+    color: black;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+
+}
+
+
+.movebtn {
+    position: absolute;
+    width: 140px;
+    height: 50px;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    color: #ffff;
+    background-color: #BB6BD9;
+    transform: translateX(0);
+    transition: all .2s ease-in-out;
+    font-weight: 800;
+
+}
+
+.rightBtn {
+    transform: translateX(100%);
+    transition: all .2s ease-in-out;
+    color: #ffff;
+}
+
+
+
+
+.list li {
+    list-style: none;
+}
+
+.list li:before {
+    content: '\2714';
+    color: #BB6BD9
+}
+
+.box .price {
+    color: black;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.box .price.year {
+    display: none;
+}
+
+.box .list {
+    margin: 20px 0;
+}
+
+.box .list h3 {
+    font-size: 32px;
+}
+
+.box .list p {
+    padding: 15px 0;
+    font-size: 20px;
+    font-weight: 800;
+
+}
+
+
+.box-container {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+    background: #fff;
+    margin-right: 2rem;
+    border-radius: 24px;
+    margin-bottom: 10rem;
+    margin: 0 10rem;
+
+}
+
+/* 
+.box-container .box:nth-child(3) {
+    margin-top: 5rem;
+} */
+
+.box {
+    /* display: block;
+    max-height: 500px;
+    align-items: stretch; */
+    flex: 1;
+    /* additionally, equal width */
+    padding: 3em;
+    margin: 2em;
+}
+
+
+
+.box .btn {
+    font-size: 17px;
+    background: #87509b86;
+    color: #fff;
+    padding: 10px;
+    width: 10rem;
+    top: 45em;
+    border-radius: 24px;
+    text-align: center;
+    margin-left: 5rem;
+}
+
+.box .btn:hover {
+    background: #BB6BD9;
+}
+
+.box:hover {
+    background: #231D4F;
+    color: #fff;
+
+    border-radius: 25px;
+}
+
+.box:hover span,
+.box:hover li,
+.box:hover h3,
+.box:hover p {
+    color: #fff;
+}
+
+.list h3:hover {
+    color: #fff;
+}
+
+.box {
+    padding: 7px 30px;
+    cursor: pointer;
+    color: #444;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.container-plan {
+    display: block;
+}
+
+/* 
+.price-toggler span.active {
+    background: #444;
+    color: #fff;
+} */
+
+@media (max-width:756px) {
+
+    .box-container {
+        display: block;
+        margin: 0;
+    }
+
+
+    .container {
+        display: block;
+        margin-right: 2rem;
+
+
+    }
+
+    button {
+        size: 40%;
+    }
+}
