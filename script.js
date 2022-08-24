@@ -36,8 +36,9 @@ month.onclick = () => {
     });
 };
 
-
-
+const join = () => {
+    console.log("Thank you for showing interest, this feature will be available soon")
+}
 
 // const monthlysub = document.querySelector(".monthlysub, .planM");
 // const yearlysub = document.querySelector(".yearlysub, planY");

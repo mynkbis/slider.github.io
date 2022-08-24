@@ -211,10 +211,44 @@ body {
     top: 45em;
     border-radius: 24px;
     text-align: center;
-    margin-left: 5rem;
+    margin-left: 4rem;
+    margin-top: 6rem;
+
+
 }
 
-.box .btn:hover {
+.box .btn2 {
+    font-size: 17px;
+    background: #87509b86;
+    color: #fff;
+    padding: 10px;
+    width: 10rem;
+    top: 45em;
+    border-radius: 24px;
+    text-align: center;
+    margin-left: 4rem;
+    margin-top: 4.5rem;
+
+
+}
+
+.box .btn3 {
+    font-size: 17px;
+    background: #87509b86;
+    color: #fff;
+    padding: 10px;
+    width: 10rem;
+    top: 45em;
+    border-radius: 24px;
+    text-align: center;
+    margin-left: 4rem;
+
+
+}
+
+.box .btn:hover,
+.btn2:hover,
+.btn3:hover {
     background: #BB6BD9;
 }
 
