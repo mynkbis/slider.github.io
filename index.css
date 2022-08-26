@@ -238,7 +238,7 @@ body {
 }
 
 
-@media (max-width:786px) {
+@media (max-width:950px) {
 
     body {
         background: url('./background.jpeg');
@@ -264,7 +264,7 @@ body {
     }
 
     .container-title h2 {
-        font-size: 20px;
+        font-size: 25px;
         padding: 0rem 3rem;
         line-height: 30px;
     }
@@ -274,18 +274,23 @@ body {
     }
 
     .subtitle p {
-        width: 300px;
+        width: 250px;
         height: 84px;
         font-family: 'Poppins';
         font-weight: 500;
         font-size: 16px;
         line-height: 27px;
         margin-left: 2rem;
+        text-align: justify;
+        margin-top: -1rem;
+        margin-bottom: 2rem;
 
     }
 
     .actionBtns {
-        margin: 4rem;
+        margin: 1rem;
+        margin-left: 4rem;
+
     }
 
     .actionBtns,
@@ -308,11 +313,14 @@ body {
         display: block;
         margin: 1rem;
 
+
     }
 
     .box {
         display: block;
-        margin: 1rem -2rem;
+
+        margin: 0 auto;
+        margin-left: -3rem;
         padding-top: -1rem
     }
 }
