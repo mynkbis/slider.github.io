@@ -13,14 +13,18 @@
 body {
     overflow-x: none;
 
-}
-
-#pricing_details {
     background: url('background.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#pricing_details {
+
+    padding-bottom: 5rem;
 
 }
+
+
 
 .container {
     max-width: 1250px;
@@ -107,8 +111,7 @@ body {
 
 .actionBtn {
     padding: 1rem;
-    width: 140px;
-    height: 50px;
+
     outline: none;
     border: none;
     background: #fff;
@@ -289,7 +292,6 @@ body {
         margin-top: 5rem;
         margin-left: 1rem;
         margin-right: -.2rem;
-
 
     }
 
