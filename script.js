@@ -4,8 +4,8 @@ window.addEventListener('DOMContentLoaded', (event) => {
 
 let month = document.querySelector('.price-toggler .month');
 let year = document.querySelector('.price-toggler .year');
-let monthAmount = document.querySelectorAll('.box-container .box .month');
-let yearAmount = document.querySelectorAll('.box-container .box .year');
+let monthAmount = document.querySelectorAll('.box-main .box .month');
+let yearAmount = document.querySelectorAll('.box-main .box .year');
 const movebtn = document.querySelector(".movebtn");
 
 year.onclick = () => {

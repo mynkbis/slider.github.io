@@ -12,76 +12,83 @@
 </head>
 
 <body>
-    <div class="container">
+    <section id="pricing_details">
         <nav class="navbar">
-            <div>
-                <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+            <div class="container">
+                <div class="nav">
+                    <div>
+                        <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+                    </div>
+                    <button class="buttonJoin" onclick="join()">Join Now</button>
+                </div>
             </div>
-            <button class="buttonJoin" onclick="join()">Join Now</button>
         </nav>
-        <div class="container-title">
-            <h2>Plans & Pricing</h2>
-            <div class="container-subTitle">
-                <div class="subtitle">
-                    <p>Whether your time-saving automation needs are large or small, we’re here to help you scale.
-                    </p>
+        <div class="container">
+
+            <div class="title">
+                <h2>Plans & Pricing</h2>
+                <div class="subTitle-main">
+                    <div class="subtitle">
+                        <p>Whether your time-saving automation needs are large or small, we’re here to help you
+                            scale.
+                        </p>
+                    </div>
+                    <div class="actionBtns price-toggler">
+                        <button type="button" onclick="bye()" class="actionBtn  month">MONTHLY</button>
+                        <button type="button" onclick="hello()" class="actionBtn year">YEARLY</button>
+                        <button type="button" class="movebtn month">MONTHLY</button>
+                    </div>
                 </div>
-                <div class="actionBtns price-toggler">
-                    <button type="button" onclick="bye()" class="actionBtn  month">MONTHLY</button>
-                    <button type="button" onclick="hello()" class="actionBtn year">YEARLY</button>
-                    <button type="button" class="movebtn month">MONTHLY</button>
+            </div>
+
+            <div class="box-main">
+                <div class="box">
+                    <div class="price month"><span>$</span><span>19</span></div>
+                    <div class="price year"><span>$</span><span>228</span></div>
+                    <div class="list">
+                        <h3>Starter</h3>
+                        <p>Unleash the power of automation.
+                        </p>
+                        <li> Multi-step Zaps </li>
+                        <li> 3 Premium Apps</li>
+                        <li> 2 Users team</li>
+                        <li> Shared Workspace</li>
+
+                    </div>
+                    <button class="btn">Choose Plan</button>
+
+                </div>
+                <div class="box">
+                    <div class="price month"><span>$</span><span>54</span></div>
+                    <div class="price year"><span>$</span><span>648</span></div>
+                    <div class="list">
+                        <h3>Profesional</h3>
+                        <p> Advanced tools to take your work to the next level </p>
+                        <li> Multi-step Zaps </li>
+                        <li> Unlimited Premium Apps</li>
+                        <li> 50 Users team</li>
+                        <li> Shared Workspace</li>
+                    </div>
+                    <button class="btn2">Choose Plan</button>
+
+                </div>
+                <div class="box">
+                    <div class="price month"><span>$</span><span>89</span></div>
+                    <div class="price year"><span>$</span><span>1068</span></div>
+                    <div class="list">
+                        <h3>Company</h3>
+                        <p> Automation plus enterprise-grade features</p>
+                        <li> Multi-step Zaps</li>
+                        <li> Unlimited Premium Apps</li>
+                        <li> Unlimited Users Team</li>
+                        <li> Advanced Admin</li>
+                        <li> Custom Data Retention</li>
+                    </div>
+                    <button class="btn3">Choose Plan</button>
                 </div>
             </div>
         </div>
-
-        <div class="box-container">
-            <section class="box">
-                <div class="price month"><span>$</span><span>19</span></div>
-                <div class="price year"><span>$</span><span>228</span></div>
-                <div class="list">
-                    <h3>Starter</h3>
-                    <p>Unleash the power of automation.
-                    </p>
-                    <li> Multi-step Zaps </li>
-                    <li> 3 Premium Apps</li>
-                    <li> 2 Users team</li>
-                    <li> Shared Workspace</li>
-
-                </div>
-                <button class="btn">Choose Plan</button>
-
-            </section>
-            <section class="box">
-                <div class="price month"><span>$</span><span>54</span></div>
-                <div class="price year"><span>$</span><span>648</span></div>
-                <div class="list">
-                    <h3>Profesional</h3>
-                    <p> Advanced tools to take your work to the next level </p>
-                    <li> Multi-step Zaps </li>
-                    <li> Unlimited Premium Apps</li>
-                    <li> 50 Users team</li>
-                    <li> Shared Workspace</li>
-                </div>
-                <button class="btn2">Choose Plan</button>
-
-            </section>
-            <section class="box">
-                <div class="price month"><span>$</span><span>89</span></div>
-                <div class="price year"><span>$</span><span>1068</span></div>
-                <div class="list">
-                    <h3>Company</h3>
-                    <p> Automation plus enterprise-grade features</p>
-                    <li> Multi-step Zaps</li>
-                    <li> Unlimited Premium Apps</li>
-                    <li> Unlimited Users Team</li>
-                    <li> Advanced Admin</li>
-                    <li> Custom Data Retention</li>
-                </div>
-                <button class="btn3">Choose Plan</button>
-            </section>
-
-        </div>
-    </div>
+    </section>
     <script src="./script.js"></script>
 </body>
 
